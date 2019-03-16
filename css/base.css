@@ -1,0 +1,60 @@
+html,body,ul,li,img,a,p,form ,input{
+    padding:0;
+    margin:0;
+    /*去除移动端点击高亮效果*/
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: '微软雅黑',sans-serif;
+    font-size: 13px;
+}
+img,textarea,button,input{
+    vertical-align: bottom;
+}
+a,
+a:hover{
+    color:#666;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+input,textarea{
+    /*清除文本框获取焦点时，默认的边框阴影*/
+    outline:none;
+    /*清除边框*/
+    border: none;
+    /*添加边框*/
+    border:1px solid #ccc;
+}
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.m_left10{
+    margin-left: 10px;
+}
+.m_right10{
+    margin-right: 10px;
+}
+.m_top10{
+    margin-top: 10px;
+}
+.m_bottom10{
+    margin-bottom: 10px;
+}
+.clearfix::before,
+.clearfix::after{
+    content:'';
+    display: block;
+    height:0;
+    line-height: 0;
+    clear:both;
+    visibility: hidden;
+
+}
